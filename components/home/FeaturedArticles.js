@@ -1,18 +1,8 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import styled from 'styled-components';
+
 import { formatDate } from '../../utils/formatDate'
 
-const StyledFeaturedArticles = styled.div`
-  .ftribbon {background: url('https://www.millerchicagorealestate.com/wp-content/themes/Residence/images/ftribbon.png') top center no-repeat;
-    width: 175px;
-    height: 175px;
-    left: 79%;
-    top: -9px;
-    z-index: 99;
-    position: absolute;
-    }
-`;
 
 export default function FeaturedArticles({authors, featuredPosts}) {
   return (
