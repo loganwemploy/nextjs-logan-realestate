@@ -36,7 +36,7 @@ export default function Navbar() {
                 </Link>
                 <Link href="/">
                   <a className="hidden lg:block h-9">
-                    <img style={{width:'18vw',height: 'auto',marginTop:'-2vh'}} src="https://www.millerchicagorealestate.com/wp-content/uploads/2015/03/imageedit_2_7562794432.png" alt="" />
+                    {/* <img style={{width:'18vw',height: 'auto',marginTop:'-2vh'}} src="https://www.millerchicagorealestate.com/wp-content/uploads/2015/03/imageedit_2_7562794432.png" alt="" /> */}
                     {/* <Image 
                       src={siteConfig.logo} 
                       alt={siteConfig.logoText}
